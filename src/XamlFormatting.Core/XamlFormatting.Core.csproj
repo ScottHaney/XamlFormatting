@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- netstandard2.0 so the same assembly is consumable by both the
+         net472 VSIX and the net8.0 test project. -->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>XamlFormatting.Core</RootNamespace>
+    <AssemblyName>XamlFormatting.Core</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <Company>XamlFormatting</Company>
+    <Product>XamlFormatting</Product>
+  </PropertyGroup>
+
+</Project>
