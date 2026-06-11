@@ -15,4 +15,12 @@
     <Product>XamlFormatting</Product>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- EditorConfig core (official editorconfig-core-net). Pinned to 0.15.0 because
+         its netstandard2.0 asset is dependency-free: only EditorConfig.Core.dll is
+         added to consumers (incl. the VSIX). Handles discovery (up to root=true),
+         glob matching, and cascade/merge per the EditorConfig spec. -->
+    <PackageReference Include="editorconfig" Version="0.15.0" />
+  </ItemGroup>
+
 </Project>
